@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <tab id="0" titre="Le premier tableau" renardX="500" renardY="500" decor="image.jpg">
+    <objets>
+      <obj x="100" y="200" image="objet.jpg" action="2"/>
+      <obj x="100" y="200" image="objet2.jpg" action="3"/>
+    </objets>
+  </tab>
+</root>

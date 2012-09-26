@@ -21,6 +21,17 @@
 		B20F9E361611BEB000580CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20F9E171611BEAF00580CF4 /* Foundation.framework */; };
 		B20F9E3E1611BEB000580CF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B20F9E3C1611BEB000580CF4 /* InfoPlist.strings */; };
 		B20F9E411611BEB000580CF4 /* AdventuresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9E401611BEB000580CF4 /* AdventuresTests.m */; };
+		B20F9E4F1611BEEF00580CF4 /* TableauViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9E4D1611BEEF00580CF4 /* TableauViewController.m */; };
+		B20F9E521611BF0C00580CF4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9E511611BF0C00580CF4 /* RootViewController.m */; };
+		B20F9E581611C6C100580CF4 /* Renard.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9E571611C6C100580CF4 /* Renard.m */; };
+		B20F9E5B1611D46800580CF4 /* grenavatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B20F9E5A1611D46800580CF4 /* grenavatar.jpg */; };
+		B20F9EA61611EAD300580CF4 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9E991611EAD300580CF4 /* DDXMLElementAdditions.m */; };
+		B20F9EA71611EAD300580CF4 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9E9C1611EAD300580CF4 /* NSString+DDXML.m */; };
+		B20F9EA81611EAD300580CF4 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9E9F1611EAD300580CF4 /* DDXMLDocument.m */; };
+		B20F9EA91611EAD300580CF4 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9EA11611EAD300580CF4 /* DDXMLElement.m */; };
+		B20F9EAA1611EAD300580CF4 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9EA31611EAD300580CF4 /* DDXMLNode.m */; };
+		B20F9EAD1611EB6700580CF4 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B20F9EAC1611EB6700580CF4 /* XMLParser.m */; };
+		B20F9EAF1611F0E600580CF4 /* tableaux.xml in Resources */ = {isa = PBXBuildFile; fileRef = B20F9EAE1611F0E600580CF4 /* tableaux.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,28 @@
 		B20F9E3D1611BEB000580CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B20F9E3F1611BEB000580CF4 /* AdventuresTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdventuresTests.h; sourceTree = "<group>"; };
 		B20F9E401611BEB000580CF4 /* AdventuresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventuresTests.m; sourceTree = "<group>"; };
+		B20F9E4C1611BEEF00580CF4 /* TableauViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableauViewController.h; sourceTree = "<group>"; };
+		B20F9E4D1611BEEF00580CF4 /* TableauViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableauViewController.m; sourceTree = "<group>"; };
+		B20F9E501611BF0C00580CF4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B20F9E511611BF0C00580CF4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B20F9E561611C6C100580CF4 /* Renard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renard.h; sourceTree = "<group>"; };
+		B20F9E571611C6C100580CF4 /* Renard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Renard.m; sourceTree = "<group>"; };
+		B20F9E5A1611D46800580CF4 /* grenavatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grenavatar.jpg; sourceTree = "<group>"; };
+		B20F9E981611EAD300580CF4 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		B20F9E991611EAD300580CF4 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		B20F9E9B1611EAD300580CF4 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		B20F9E9C1611EAD300580CF4 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		B20F9E9D1611EAD300580CF4 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		B20F9E9E1611EAD300580CF4 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		B20F9E9F1611EAD300580CF4 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		B20F9EA01611EAD300580CF4 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		B20F9EA11611EAD300580CF4 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		B20F9EA21611EAD300580CF4 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		B20F9EA31611EAD300580CF4 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		B20F9EA51611EAD300580CF4 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		B20F9EAB1611EB6700580CF4 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		B20F9EAC1611EB6700580CF4 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		B20F9EAE1611F0E600580CF4 /* tableaux.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tableaux.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +145,17 @@
 		B20F9E1B1611BEAF00580CF4 /* Adventures */ = {
 			isa = PBXGroup;
 			children = (
+				B20F9E561611C6C100580CF4 /* Renard.h */,
+				B20F9E571611C6C100580CF4 /* Renard.m */,
+				B20F9E4C1611BEEF00580CF4 /* TableauViewController.h */,
+				B20F9E4D1611BEEF00580CF4 /* TableauViewController.m */,
+				B20F9E501611BF0C00580CF4 /* RootViewController.h */,
+				B20F9E511611BF0C00580CF4 /* RootViewController.m */,
 				B20F9E241611BEAF00580CF4 /* AppDelegate.h */,
 				B20F9E251611BEAF00580CF4 /* AppDelegate.m */,
+				B20F9EAB1611EB6700580CF4 /* XMLParser.h */,
+				B20F9EAC1611EB6700580CF4 /* XMLParser.m */,
+				B20F9E961611EAD300580CF4 /* KissXML */,
 				B20F9E1C1611BEAF00580CF4 /* Supporting Files */,
 			);
 			path = Adventures;
@@ -122,6 +164,8 @@
 		B20F9E1C1611BEAF00580CF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B20F9EAE1611F0E600580CF4 /* tableaux.xml */,
+				B20F9E591611C82100580CF4 /* UI */,
 				B20F9E1D1611BEAF00580CF4 /* Adventures-Info.plist */,
 				B20F9E1E1611BEAF00580CF4 /* InfoPlist.strings */,
 				B20F9E211611BEAF00580CF4 /* main.m */,
@@ -150,6 +194,57 @@
 				B20F9E3C1611BEB000580CF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B20F9E591611C82100580CF4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B20F9E5A1611D46800580CF4 /* grenavatar.jpg */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B20F9E961611EAD300580CF4 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				B20F9E971611EAD300580CF4 /* Additions */,
+				B20F9E9A1611EAD300580CF4 /* Categories */,
+				B20F9E9D1611EAD300580CF4 /* DDXML.h */,
+				B20F9E9E1611EAD300580CF4 /* DDXMLDocument.h */,
+				B20F9E9F1611EAD300580CF4 /* DDXMLDocument.m */,
+				B20F9EA01611EAD300580CF4 /* DDXMLElement.h */,
+				B20F9EA11611EAD300580CF4 /* DDXMLElement.m */,
+				B20F9EA21611EAD300580CF4 /* DDXMLNode.h */,
+				B20F9EA31611EAD300580CF4 /* DDXMLNode.m */,
+				B20F9EA41611EAD300580CF4 /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		B20F9E971611EAD300580CF4 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B20F9E981611EAD300580CF4 /* DDXMLElementAdditions.h */,
+				B20F9E991611EAD300580CF4 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		B20F9E9A1611EAD300580CF4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B20F9E9B1611EAD300580CF4 /* NSString+DDXML.h */,
+				B20F9E9C1611EAD300580CF4 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B20F9EA41611EAD300580CF4 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				B20F9EA51611EAD300580CF4 /* DDXMLPrivate.h */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +301,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = B20F9E061611BEAF00580CF4;
 			productRefGroup = B20F9E121611BEAF00580CF4 /* Products */;
@@ -227,6 +323,8 @@
 				B20F9E281611BEB000580CF4 /* Default.png in Resources */,
 				B20F9E2A1611BEB000580CF4 /* Default@2x.png in Resources */,
 				B20F9E2C1611BEB000580CF4 /* Default-568h@2x.png in Resources */,
+				B20F9E5B1611D46800580CF4 /* grenavatar.jpg in Resources */,
+				B20F9EAF1611F0E600580CF4 /* tableaux.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +361,15 @@
 			files = (
 				B20F9E221611BEAF00580CF4 /* main.m in Sources */,
 				B20F9E261611BEAF00580CF4 /* AppDelegate.m in Sources */,
+				B20F9E4F1611BEEF00580CF4 /* TableauViewController.m in Sources */,
+				B20F9E521611BF0C00580CF4 /* RootViewController.m in Sources */,
+				B20F9E581611C6C100580CF4 /* Renard.m in Sources */,
+				B20F9EA61611EAD300580CF4 /* DDXMLElementAdditions.m in Sources */,
+				B20F9EA71611EAD300580CF4 /* NSString+DDXML.m in Sources */,
+				B20F9EA81611EAD300580CF4 /* DDXMLDocument.m in Sources */,
+				B20F9EA91611EAD300580CF4 /* DDXMLElement.m in Sources */,
+				B20F9EAA1611EAD300580CF4 /* DDXMLNode.m in Sources */,
+				B20F9EAD1611EB6700580CF4 /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +433,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -347,8 +456,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
