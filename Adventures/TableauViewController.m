@@ -26,6 +26,7 @@
     
     // installer le parser xml
     XMLParser *parser = [[XMLParser alloc] init];
+    [parser readDecor];
     
     // init du renard
     renard = [[Renard alloc] initWithImage:[UIImage imageNamed:@"grenavatar.jpg"]];
